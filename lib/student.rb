@@ -73,7 +73,7 @@ class Student
   end
 
   def update
-    Student.find_by_name(self.name)
+    self.save
 
   end
 
